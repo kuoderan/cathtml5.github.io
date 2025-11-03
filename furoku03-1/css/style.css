@@ -1,0 +1,113 @@
+/* body */
+body {
+    background-color: #fff;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #D51E17;
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    color: #cc0000;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+}
+.subcopy {
+    font-size: 0.875em;
+    text-align: center;
+    margin: 0.5em 0 1em;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+    margin: 1em;
+}
+
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 3px #cc0000;
+    text-align: center;
+}
+
+/* article */
+article {
+    padding: 32px 16px 0;
+}
+
+/* Concept、Access變更了背景色與文字顏色 */
+#concept, #access {
+    background-image: url(../img/bg.png);
+    padding: 32px 16px;
+}
+
+/* 指定Access的邊界 */
+#access {
+    margin: 32px 0 0;
+}
+
+/* 讓Access的內容置中對齊 */
+.info {
+    text-align: center;
+}
+
+/* 設定了內容寬度的上限 */
+.inner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* 照片是靠右對齊的section */
+.imageunit {
+    margin: 0;
+    overflow: hidden;
+}
+.imageunit img {
+    float: right;
+    margin: 0 0 10px 20px;
+    width: 50%;
+    height: auto;
+}
+.imageunit p {
+    margin: 0 0 1em;
+}
+
+/* 導覽列 */
+.navigation ul {
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 5px;
+    font-size: 0.875em;
+}
+.navigation ul li a {
+    color: #cc0000;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #62d5e8;
+    text-decoration: underline;
+}
+
+/* 主要視覺設計 */
+.mainvisual {
+    background-color: #f2ece1;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

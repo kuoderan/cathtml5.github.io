@@ -1,0 +1,125 @@
+/* body */
+body {
+    background-color: #fff;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    background-color: #53b3d2;
+    margin: 0;
+    padding: 15px;
+}
+
+/* 標題 */
+h2 {
+    text-align: center;
+    border-bottom: solid 1px #cccccc;
+    font-size: 1.25em;
+}
+
+h3 {
+    background-color: #e8e8e8;
+    padding: 6px;
+    font-size: 0.875em;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+}
+
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 3px #53b3d2;
+    text-align: center;
+}
+
+/* 設定了內容寬度的上限 */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* section */
+section {
+    margin: 30px 0 60px;
+}
+
+/* 照片的section */
+.photo {
+    margin: 0 0 24px;
+}
+.photo ul {
+    padding: 10px;
+    overflow: hidden;
+}
+.photo ul li {
+    list-style-type: none;
+    float: left;
+    width: 33.333%;
+}
+.photo ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 簡介的section */
+.profile {
+    padding: 10px;
+    overflow: hidden;
+}
+.profile img {
+    float: left;
+    margin: 0 16px 0 0;
+}
+.profile h4 {
+    margin: 0 0 0.5em;
+}
+.profile p {
+    margin: 0;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border-bottom: solid 1px #cccccc;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* 導覽列 */
+.navigation ul {
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #53b3d2;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color: #1f8db0;
+    text-decoration: underline;
+}
+
+/* 主要視覺設計 */
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}

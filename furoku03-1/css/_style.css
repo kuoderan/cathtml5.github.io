@@ -1,0 +1,164 @@
+/* body */
+body {
+    background-color: #FFF;
+    margin: 0;
+    color: #666666;
+}
+
+header {
+    padding-top: 10px;
+}
+footer {
+    background: url('../img/bg.png') repeat;
+    border-top: solid 3px #cc0000;
+    padding: 10px;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #D51E17;
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    color: #cc0000;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h3 {
+    color: #D51E17;
+}
+
+p {
+    margin: 0 0 1em;
+    font-size: 16px;
+    line-height: 2;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 0 20px;
+}
+th,td {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+th {
+    font-weight: normal;
+}
+
+/* 圖片 */
+.image {
+    margin: 40px 0;
+}
+.image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 文案 */
+.catchcopy {
+    text-align: center;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    font-size: 14px;
+    text-align: right;
+    margin: 1em;
+}
+.pagetop a {
+    color: #D51E17;
+    font-weight: bold;
+}
+
+/* 著作權資訊 */
+.copyright {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* 導覽列 */
+.navigation ul {
+    margin: 0 0 10px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #cc0000;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* 主要視覺設計 */
+.mainvisual {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* imageunit */
+.imageunit {
+    margin: 0 0 40px;
+    padding: 0;
+    overflow: hidden;
+}
+.imageunit img {
+    float: right;
+    margin: 0 0 0 20px;
+    width: 50%;
+}
+.imageunit h4 {
+    margin: 0 0 0.5em;
+}
+.imageunit p {
+    margin: 0;
+}
+
+.contents {
+}
+
+#concept,
+#cake,
+#news,
+#access,
+#access {
+    overflow: hidden;
+}
+
+#concept .inner,
+#cake .inner,
+#news .inner,
+#access .inner,
+#cookie .inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 0 20px;
+}
+
+#concept,
+#cookie {
+    background: url('../img/bg.png') repeat;
+}
