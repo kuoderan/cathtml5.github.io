@@ -1,0 +1,38 @@
+/* body */
+body {
+    background-color: #fff9de;
+}
+
+/* 網站標題 */
+h1 {
+    font-size: 1em;
+    color: #6b3008;
+    text-align: center;
+}
+
+/* 標題 */
+h2 {
+    text-align: center;
+}
+
+h3 {
+    border-left: solid 6px #6b3008;
+}
+
+/* 回到本頁開頭 */
+.pagetop {
+    text-align: right;
+}
+
+/* 著作權資訊 */
+.copyright {
+    border-top: solid 3px #000000;
+    text-align: center;
+}
+
+/* 簡介調整了背景色與文字顏色 */
+#profile {
+    background-color: #6b3008;
+    color: #ffffff;
+}
+
